@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexSanityNunitDotnet", "AlexSanityNunitDotnet/AlexSanityNunitDotnet.csproj", "{083465D5-7C7A-4F50-8AC5-204334D1586B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyLibrary", "DummyLibrary\DummyLibrary.csproj", "{C6EEB1B4-8A1E-4FBE-996D-7EB8AC9B2C53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{083465D5-7C7A-4F50-8AC5-204334D1586B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083465D5-7C7A-4F50-8AC5-204334D1586B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083465D5-7C7A-4F50-8AC5-204334D1586B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083465D5-7C7A-4F50-8AC5-204334D1586B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6EEB1B4-8A1E-4FBE-996D-7EB8AC9B2C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6EEB1B4-8A1E-4FBE-996D-7EB8AC9B2C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6EEB1B4-8A1E-4FBE-996D-7EB8AC9B2C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6EEB1B4-8A1E-4FBE-996D-7EB8AC9B2C53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
