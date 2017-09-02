@@ -1,13 +1,9 @@
-REM store current working directory in order to get back after build
 set CUR_DIR=%CD%
 
-REM set msBuildDir=%WINDIR%\Microsoft.NET\Framework64\v4.0.30319
 set msBuildDir=%WINDIR%\Microsoft.NET\Framework64\v4.0.30319
 
-REM =====module 1===========
-
 REM  nuget restore
-call nuget.exe restore
+call nuget restore
 
 REM  build 
 call %msBuildDir%\msbuild.exe %DF_MSBUILD_BUILD_STATS_OPTS% AlexSanityNunitDotnet.sln  /t:Build /p:Configuration=Debug
