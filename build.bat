@@ -16,4 +16,4 @@ call %msBuildDir%\msbuild.exe %DF_MSBUILD_BUILD_STATS_OPTS% AlexSanityNunitDotne
 
 
 REM test run
-REM   .\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe .\AlexSanityNunitDotnet\bin\Debug\AlexSanityNunitDotnet.dll
+.\packages\NUnit.ConsoleRunner.3.7.0\tools\nunit3-console.exe .\AlexSanityNunitDotnet\bin\Debug\AlexSanityNunitDotnet.dll
