@@ -6,6 +6,16 @@ namespace DummyLibrary
     {
         public string GetSomeString()
         {
+            string s = "sdfasdf";
+            if (s == "dfd")
+            {
+                s = "sdafasdf";
+            }
+            else
+            {
+                s = "asdfadsfdf";
+            }
+            
             return "someString";
         }
     }
